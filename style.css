@@ -1,0 +1,72 @@
+body {
+  font-family: "Sarabun", "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2b2b2b;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #00aaa1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.intro, .skills, .philosophy, .tech, .contact {
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.footer {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #777;
+  background-color: #eee;
+}
+.profile-photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-position: cover;
+}
+.bio{
+  display: flex;
+  gap: 24px;
+
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.25rem;
+  }
+}
